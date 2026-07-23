@@ -1,0 +1,7 @@
+CREATE DATABASE auth_db;
+CREATE DATABASE wifi_db;
+CREATE DATABASE payment_db;
+CREATE DATABASE location_db;
+CREATE DATABASE notification_db;
+CREATE DATABASE review_db;
+CREATE DATABASE session_db;
