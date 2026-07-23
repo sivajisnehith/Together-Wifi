@@ -41,3 +41,29 @@ Before submitting a PR:
 - [ ] All existing tests pass cleanly.
 - [ ] Relevant documentation updated in `docs/`.
 - [ ] Requires approval from at least 1 team reviewer before merging to `develop` or `main`.
+
+
+## API Gateway Development Guidelines
+
+### Responsibilities
+- Route incoming requests to the appropriate microservice.
+- Perform request filtering.
+- Handle authentication and authorization.
+- Apply logging and correlation IDs.
+- Configure CORS and gateway security.
+
+### Non-Responsibilities
+- No business logic.
+- No database access.
+- No entity, repository, service, or controller layers.
+- No ownership of application data.
+
+### Package Structure
+
+com.togetherwifi.gateway
+├── config
+├── constant
+├── exception
+├── filter
+├── security
+└── util

@@ -158,3 +158,29 @@ A service is considered production-ready when:
 - Includes exception handling
 - Includes unit tests
 - API documented
+
+
+## Infrastructure Service Package Structure
+
+API Gateway
+
+com.togetherwifi.gateway
+├── config
+├── constant
+├── exception
+├── filter
+├── security
+└── util
+
+Business Services
+
+com.togetherwifi.auth
+├── controller
+├── service
+├── repository
+├── entity
+├── dto
+├── mapper
+├── config
+├── exception
+└── util
